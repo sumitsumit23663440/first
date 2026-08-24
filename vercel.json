@@ -3,5 +3,11 @@
     "api/registrations.js": {
       "maxDuration": 10
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/api/registrations",
+      "destination": "/api/registrations.js"
+    }
+  ]
 }
