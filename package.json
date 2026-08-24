@@ -1,0 +1,15 @@
+{
+  "name": "checkmate-hostel-event",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hostel chess event registration website with MySQL storage",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0"
+  }
+}

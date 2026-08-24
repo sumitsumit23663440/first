@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkmate 2026 | Hostel Chess Event</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-noise"></div>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Checkmate home">
+        <span class="brand-mark">♞</span><span>CHECKMATE<span class="brand-year">’26</span></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#register">Register</a>
+        <a href="#team">Organisers</a>
+      </nav>
+      <a class="header-cta" href="#register">Join the board <span>↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> The hostel championship</p>
+          <h1>Make your<br /><em>next move.</em></h1>
+          <p class="hero-description">A battle of minds is unfolding. Claim your seat at the board and make your hostel proud.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#register">Register now <span>→</span></a>
+            <a class="text-link" href="#about">Explore the event <span>↓</span></a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Chess knight illustration">
+          <div class="sun-disc"></div>
+          <div class="grid-lines"></div>
+          <div class="knight-piece">♞</div>
+          <div class="art-caption top">ONE MOVE<br />CHANGES<br />EVERYTHING.</div>
+          <div class="art-caption bottom">CHESS<br />TOURNAMENT<br />2026</div>
+          <div class="hero-dot dot-one"></div><div class="hero-dot dot-two"></div>
+        </div>
+        <div class="event-strip">
+          <div><span class="strip-label">Date</span><strong>24–25 AUG</strong></div>
+          <div><span class="strip-label">Venue</span><strong>HOSTEL COMMON ROOM</strong></div>
+          <div><span class="strip-label">Format</span><strong>SWISS LEAGUE • RAPID</strong></div>
+          <a href="#register">Secure a spot <span>↗</span></a>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <!-- <div class="section-index">01 / ABOUT THE EVENT</div> -->
+        <div class="about-intro">
+          <p class="eyebrow"><span></span> Think. Plan. Win.</p>
+          <h2>More than a game.<br /><em>It’s a statement.</em></h2>
+        </div>
+        <div class="about-body">
+          <p>Checkmate ’26 brings together the sharpest minds across our hostel for two days of intense strategy, memorable rivalries, and pure boardroom brilliance.</p>
+          <p>Whether you’re a calculated tactician or a curious beginner, there’s a place for you at the table.</p>
+        </div>
+        <div class="stat-grid">
+          <article><strong>02</strong><span>Days of<br />competition</span></article>
+          <article><strong>05+03</strong><span>Rapid game<br />time control</span></article>
+          <article><strong>64</strong><span>Squares. Infinite<br />possibilities.</span></article>
+          <article><strong>01</strong><span>Champion<br />takes it all.</span></article>
+        </div>
+      </section>
+
+      <section class="registration section" id="register">
+        <div class="form-side">
+          <div class="section-index">02 / JOIN THE EVENT</div>
+          <p class="eyebrow"><span></span> Registration open</p>
+          <h2>Your seat at<br />the <em>board awaits.</em></h2>
+          <p>Fill in your details and we’ll reserve your spot. Bring your focus—we’ll bring the boards.</p>
+          <div class="registration-note"><span>♟</span><div><strong>Entry is free</strong><small>Open exclusively to hostel residents</small></div></div>
+        </div>
+        <form class="event-form" id="event-form">
+          <div class="form-heading"><span>PLAYER REGISTRATION</span><small>* Required fields</small></div>
+          <label>Full name *<input required type="text" name="name" placeholder="e.g. Arjun Sharma" /></label>
+          <div class="form-row">
+            <label>Branch *<input required type="text" name="branch" placeholder="e.g. CSE" /></label>
+            <label>Scholar number *<input required type="text" name="scholar" placeholder="e.g. 221B123" /></label>
+          </div>
+          <label>Sport you want to play *
+            <select required name="sport"><option value="">Choose your sport</option><option value="Chess">Chess</option></select>
+          </label>
+          <label>Experience level
+            <div class="level-options">
+              <label><input type="radio" name="level" value="Beginner" checked /><span>Beginner</span></label>
+              <label><input type="radio" name="level" value="Intermediate" /><span>Intermediate</span></label>
+              <label><input type="radio" name="level" value="Advanced" /><span>Advanced</span></label>
+            </div>
+          </label>
+          <button class="button button-primary submit-button" type="submit">Submit registration <span>→</span></button>
+          <p class="form-privacy">By registering, you agree to follow event rules and fair play guidelines.</p>
+        </form>
+      </section>
+
+      <section class="team section" id="team">
+        <div class="team-heading"><div class="section-index">03 / THE PEOPLE BEHIND IT</div><h2>Meet the<br /><em>organisers.</em></h2></div>
+        <div class="team-intro"><p>A small team with a big love for the game, working to make every move count.</p><a class="text-link" href="mailto:checkmate26@hostel.edu">Contact the team <span>↗</span></a></div>
+        <div class="team-grid">
+          <article class="member"><div class="member-portrait portrait-one"><span>♛</span></div><div><small>EVENT LEAD</small><h3>Aarav Mehta</h3><p>Mechanical ’24</p></div></article>
+          <article class="member"><div class="member-portrait portrait-two"><span>♜</span></div><div><small>OPERATIONS</small><h3>Riya Kapoor</h3><p>ECE ’24</p></div></article>
+          <article class="member"><div class="member-portrait portrait-three"><span>♝</span></div><div><small>CREATIVE & COMMS</small><h3>Dev Malhotra</h3><p>Design ’25</p></div></article>
+          <article class="member join-card"><div class="join-symbol">+</div><div><small>WANT TO HELP?</small><h3>Join the crew</h3><a href="mailto:checkmate26@hostel.edu">Say hello ↗</a></div></article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-main"><a class="brand footer-brand" href="#home"><span class="brand-mark">♞</span><span>CHECKMATE<span class="brand-year">’26</span></span></a><p>Hostel Chess Championship<br />August 24–25, 2026</p><a class="button button-light" href="#register">Register now <span>→</span></a></div>
+      <div class="footer-bottom"><span>© 2026 CHECKMATE HOSTEL SOCIETY</span><span>MADE FOR THE LOVE OF THE GAME</span><a href="#home">BACK TO TOP ↑</a></div>
+    </footer>
+    <div class="toast" id="toast" role="status">Registration received — see you at the board! ♟</div>
+    <script src="script.js"></script>
+  </body>
+</html>

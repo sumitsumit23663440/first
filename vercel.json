@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/registrations.js": {
+      "maxDuration": 10
+    }
+  }
+}
