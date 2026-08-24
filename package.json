@@ -5,7 +5,8 @@
   "description": "Hostel chess event registration website with MySQL storage",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "vercel-build": "node -e \"console.log('Vercel build ready')\""
   },
   "dependencies": {
     "dotenv": "^16.4.7",
